@@ -359,12 +359,6 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 
 ## **Kubernetes** `(server)` 🐙
 
-* install kubectl
-
-	```shell
-	sudo apt install kubectl
-	```
-
 * install minikube
 
 	```shell
