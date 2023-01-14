@@ -6,9 +6,10 @@ This is intended to be an easy to follow guide for setting up a development envi
 Items tagged with `(local)` are only needed on your local machine, and items tagged with `(server)` are only needed on your server.
 
 
+
 ## **System** ⚙️
 
-* **VirtualBox** `Virtual Machine`
+* **`virtualization`**: ***VirtualBox*** 
   * https://www.virtualbox.org/wiki/Downloads
 * **`operating system`**: ***Ubuntu-22 Server***
   * https://ubuntu.com/download/server
