@@ -294,7 +294,7 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 	```
 
 	```shell
-	sudo apt install python3-openssl
+	sudo apt install python3-openssl python3-pip
 	```
 
 	```shell
