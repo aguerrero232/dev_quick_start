@@ -59,46 +59,46 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 
 		```bash
 		# ~/.ssh/config
-			Host <vm-host>
-			HostName <host-ip-address>
-			User <vm-user-name>
-			# port22=ssh
-			port 22 
-			# location of private key
-			IdentityFile C:\Users\<local-user-dir>\.ssh\<private-key-file>
-			# DynamicForward 127.0.0.1:9999 
-			LocalForward localhost:9998 localhost:9998
-			LocalForward localhost:8004 localhost:8004
-			LocalForward localhost:8003 localhost:8003
-			LocalForward localhost:8002 localhost:8002
-			LocalForward localhost:8001 localhost:8001
-			LocalForward localhost:8080 localhost:8080
-			LocalForward localhost:5432 localhost:5432
-			LocalForward localhost:3000 localhost:3000
-			LocalForward localhost:27017 localhost:27017	
+		Host <vm-host>
+		HostName <host-ip-address>
+		User <vm-user-name>
+		# port22=ssh
+		port 22 
+		# location of private key
+		IdentityFile C:\Users\<local-user-dir>\.ssh\<private-key-file>
+		# DynamicForward 127.0.0.1:9999 
+		LocalForward localhost:9998 localhost:9998
+		LocalForward localhost:8004 localhost:8004
+		LocalForward localhost:8003 localhost:8003
+		LocalForward localhost:8002 localhost:8002
+		LocalForward localhost:8001 localhost:8001
+		LocalForward localhost:8080 localhost:8080
+		LocalForward localhost:5432 localhost:5432
+		LocalForward localhost:3000 localhost:3000
+		LocalForward localhost:27017 localhost:27017	
 		```
 
 	* heres mine for example
 
 		```bash
-			# ~/.ssh/config
-			Host parse-dev
-			HostName 192.168.56.122
-			User vrixxx
-			# port22=ssh
-			port 22 
-			# location of private key
-			IdentityFile C:\Users\holai\.ssh\id_ed25519
-			# DynamicForward 127.0.0.1:9999 
-			LocalForward localhost:9998 localhost:9998
-			LocalForward localhost:8004 localhost:8004
-			LocalForward localhost:8003 localhost:8003
-			LocalForward localhost:8002 localhost:8002
-			LocalForward localhost:8001 localhost:8001
-			LocalForward localhost:8080 localhost:8080
-			LocalForward localhost:5432 localhost:5432
-			LocalForward localhost:3000 localhost:3000
-			LocalForward localhost:27017 localhost:27017	
+		# ~/.ssh/config
+		Host parse-dev
+		HostName 192.168.56.122
+		User vrixxx
+		# port22=ssh
+		port 22 
+		# location of private key
+		IdentityFile C:\Users\holai\.ssh\id_ed25519
+		# DynamicForward 127.0.0.1:9999 
+		LocalForward localhost:9998 localhost:9998
+		LocalForward localhost:8004 localhost:8004
+		LocalForward localhost:8003 localhost:8003
+		LocalForward localhost:8002 localhost:8002
+		LocalForward localhost:8001 localhost:8001
+		LocalForward localhost:8080 localhost:8080
+		LocalForward localhost:5432 localhost:5432
+		LocalForward localhost:3000 localhost:3000
+		LocalForward localhost:27017 localhost:27017	
 		```
 
 
