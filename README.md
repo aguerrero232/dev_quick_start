@@ -185,13 +185,13 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 		```yaml
 		# /etc/netplan/00-installer-config.yaml
 		network:
-			ethernets:
-				enp0s3:
-					dhcp4: true
-				enp0s8:
-					addresses: 
-						- 192.168.56.122/24
-			version: 2
+		  ethernets:
+			enp0s3:
+			  dhcp4: true
+			enp0s8:
+			  addresses: 
+			    - 192.168.56.122/24
+		  version: 2
 		```
 
 	* apply the changes
