@@ -304,7 +304,7 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 * **update** pip and wheel:
 
 	```shell
-		pip install -U pip wheel
+	pip install -U pip wheel
 	```
 
 ### **pyenv** `(server)` 🐍🌐🐍🌐 
