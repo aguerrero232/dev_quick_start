@@ -1,4 +1,4 @@
-# **Development Environment** `Setup` 🖥️
+# **Development Quickstart** `Guide` 🖥️
 
 This is intended to be an easy to follow guide for setting up a development environment on a fresh install of Ubuntu-22 Server. 
 
