@@ -318,18 +318,23 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 
     * check out the <a href='https://github.com/pyenv/pyenv#automatic-installer'>***pyenv repo***</a> for more info, and definitely the best instructions for installing it. 
 
-* install the `pyenv` plugin; <a href="https://github.com/pyenv/pyenv-virtualenv">`virtualenv`</a>
-
-	```shell
-	git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-	```
-
 * restart your shell
 
 	```shell
 	exec "$SHELL"
 	```
 
+* install the `pyenv` plugin; <a href="https://github.com/pyenv/pyenv-virtualenv">`virtualenv`</a>
+
+	```shell
+	git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+	```
+
+* restart your shell again
+
+	```shell
+	exec "$SHELL"
+	```
 
 ## **Docker** `(server)` 🐳
 
