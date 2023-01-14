@@ -172,13 +172,12 @@ Items tagged with `(local)` are only needed on your local machine, and items tag
 		```yaml
 		# /etc/netplan/<name-of-config-file>.yaml
 		network:
-			ethernets:
-				<interface-1>:
-					dhcp4: true
-				<interface-2>:
-					dhcp4: false
-					addresses: [<static-ip>/24]
-			version: 2
+		  ethernets:
+			<interface-1>:
+			  dhcp4: true
+			<interface-2>:
+			  addresses: [<static-ip>/24]
+		  version: 2
 		```
 
 	* heres mine for example
